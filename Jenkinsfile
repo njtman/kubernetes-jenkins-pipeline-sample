@@ -3,7 +3,7 @@
 pipeline {
   agent {
     kubernetes {
-      label 'mypod'
+      label 'kube-test'
       defaultContainer 'jnlp'
       yamlFile 'KubernetesPod.yaml'
     }
