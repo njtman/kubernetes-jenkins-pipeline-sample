@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    some-label: some-label-value
+    build-pipeline: kubernetes-test
 spec:
   containers:
   - name: maven
